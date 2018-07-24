@@ -2,20 +2,125 @@ h1, h2, a, p {
 	font-family: Roboto;
 }
 
+/*** Space Jam Landing Page ***/
+/* Center table */
 table.planets {
 	margin: auto;
-	width: 50%;
-	border: 3px solid green;
+	width: 600px;
+	position: relative;
+	top: 100px;
 }
-td {
+/* set default cell height and width */
+table.planets td {
 	font-family: Roboto;
 	color: white;
+	position: relative;
+	height: 100px;
+	width: 100px;
 }
-td#jamLogo {
-	text-align: center;
-	border: 3px solid aquamarine;
+/* set all cell images position and margins */
+table.planets img {
+	position:absolute;
+	margin: auto;
 }
 
-td#jamCentral {
-	border: 3px solid blue;
+/* change dimensions and alignment for center image */
+td#jamLogo {
+	width: 400px;
+	height: 200px;
+}
+
+td#jamLogo img {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* set height/widths for bottom row */
+td#siteMap, td#stellarSouvenirs, td#behindTheJam {
+	height: 125px;
+}
+td#siteMap {
+	width: 104px;
+}
+td#stellarSouvenirs {
+	width: 100px;
+}
+
+/* set up various cell alignments to turn table into an ellipse */
+
+td#siteMap img {
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+td#behindTheJam img {
+	top: 0;
+	bottom: 0;
+}
+
+td#stellarSouvenirs img {
+	top: 0;
+	left: 0;
+}
+
+td#warnerStudioStore img {
+	top: 25%;
+}
+
+td#jumpStation img {
+	right: 0;
+}
+
+td#lunarTunes img {
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+
+td#planetBBall img {
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+td#jamCentral img {
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+
+td#pressBoxShuttle img {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+td#theLineup img {
+	left: 0;
+	bottom: 0;
+}
+
+td#juniorJam img {
+	left: 0;
+	top: 10%;
+}
+
+table#spacejamfooter {
+	position: relative;
+	margin: auto;
+	top: 190px;
+	color: indianred;
+	width: 300px;
+	font-family: Roboto;
+	font-size: 12px;
+	text-align: center;
+}
+
+table#spacejamfooter td#bottomrow {
+	color: red;
+	padding: 5%;
 }
