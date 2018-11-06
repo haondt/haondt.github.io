@@ -1,0 +1,46 @@
+/* css for new landing page */
+h1, h2, a, p {
+	font-family: Roboto;
+}
+
+body {
+	background-color: #212121;
+	margin: 0;
+	padding: 0;
+}
+
+/* set up navigation bar */
+
+div#navBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #212121; 
+}
+
+div#navBar a {
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+ }
+
+div#navBar li {
+	float: left;
+}
+
+div#navBar a:hover {
+	background-color: #6f40b7;
+}
+
+div#navBar .active {
+	background-color: #6f40b7;
+}
+
+/* bio formatting */
+div#intro {
+	margin: 10px;
+	color: white;
+}
