@@ -41,6 +41,52 @@ div#navBar .active {
 
 /* bio formatting */
 div#intro {
-	margin: 10px;
 	color: white;
+	min-width: 810px;
+	max-width: 1250px;
+	margin: auto;
+}
+div#intro td{
+	margin: 0;
+	padding: 50px;
+}
+
+/* contacts formatting */
+div#contacts table {
+	width: auto;
+	margin: auto;
+}
+div#contacts td {
+	margin: 0;
+	padding: 10px;
+}
+div#contacts a {
+	display:block;	
+	padding: 16px 16px;
+	background-size: 32px auto;
+}
+
+#insta {
+	background-image: url("../images/icons/instagram.png");
+}
+#insta:hover {
+	background-image: url("../images/icons/instagram_hover.png");
+}
+#github {
+	background-image: url("../images/icons/github.png");
+}
+#github:hover {
+	background-image: url("../images/icons/github_hover.png");
+}
+#mail {
+	background-image: url("../images/icons/email.png");
+}
+#mail:hover {
+	background-image: url("../images/icons/email_hover.png");
+}
+#linkedin {
+	background-image: url("../images/icons/linkedin.png");
+}
+#linkedin:hover {
+	background-image: url("../images/icons/linkedin_hover.png");
 }
