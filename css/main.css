@@ -90,3 +90,20 @@ div#contacts a {
 #linkedin:hover {
 	background-image: url("../images/icons/linkedin_hover.png");
 }
+
+/* format footer */
+div#footer {
+	bottom: 0;
+	position: fixed;
+}
+
+div#footer a {
+	display: block;
+	color: #6f40b7;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+div#footer a:hover {
+	color: white;
+}
