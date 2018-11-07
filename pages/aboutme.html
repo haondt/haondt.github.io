@@ -1,35 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html id="resume">
+	<!-- page setup -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-	<link href="../css/style.css" type = "text/css" rel="stylesheet" />
+	<link href="../css/main.css" rel="stylesheet" />
+	<title>Resume</title>
 	<head>
-		<title>About Me</title>
+		<!-- nav bar -->
+		<div id="navBar">
+			<ul>
+				<li><a href="../index.html" target="_self">Noah Burghardt</a></li>
+				<li><a class="active" href="./aboutme.html" target="_self">Resume</a></li>
+				<li><a href="./projects/projects.html" target="_self">Projects</a></li>
+			</ul>
+		</div>
 	</head>
 	<body>
-		<a href="../index.html">Home</a>
-		<a href="./aboutme.html">About Me</a>
-		<h1>About me</h1>
-		<div id="intro">
-			<img src="http://i.imgur.com/9QsDNBU.gif" height="250"/>
-			<h2>Summary</h2>
-			<ul>
-				<li>An affinity for science, technology and innovation</li>
-				<li>Bilingual, completed high school in French Immersion</li>
-			</ul>
-			<h3>Technological Proficiency</h3>	
-			<h3>Leadership and Project Management</h3>
-			<h3>Customer Relations</h3>
-		</div>
-		<div id="education">
-			<h2>Education</h2>
-			<h3>Ecole Secondaire Beaumont Composite Highschool</h3>
-			<h3>University of Alberta</h3>
-		</div>
-		<div id="experience">
-			<h2>Experience</h2>
-		</div>
-		<div id="achievements">
-			<h2>Achievements</h2>
-		</div>
+		<table class="cli">
+			<tr>
+				<tr class="cliIn"><p>&gt; Noah.contact</p></tr>
+				<tr class="cliOut"><p>"Burghardtnoah@gmail.com"</p></tr>
+				<tr class="cliIn">&gt; Noah.resume</tr>
+				<tr class="cliOut"><p>"<a href="../doc/NoahBurghardt.pdf">NoahBurghardt.pdf</a>"</p></tr>
+				<tr class="cliIn"><p>&gt; Noah.hobbies</p></tr>
+				<tr class="cliOut"><p>["cooking", "3D printing", "lifting", "overwatch"]</p></tr>
+				<td class="cliIn"><p>&gt; Noah.education</p></td>
+				<td class="cliOut"><p>"B.Sc. Computer Science Software Specialization - University of Alberta"</p></td>
+				<td class="cliIn"><p>&gt; Noah.skills</p></td>
+				<td class="cliOut"><p>["Python", "C", "git", "Java", "SQL", "Agile"]</p></td>
+			</tr>
+		</table>
 	</body>
 </html>
