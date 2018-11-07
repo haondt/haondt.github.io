@@ -1,0 +1,161 @@
+/* css for new landing page */
+h1, h2, a, p {
+	font-family: Roboto;
+}
+
+body {
+	background-color: #212121;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+/* set up navigation bar */
+
+div#navBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #212121; 
+}
+
+div#navBar a {
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+ }
+
+div#navBar li {
+	float: left;
+}
+
+div#navBar a:hover {
+	background-color: #6f40b7;
+}
+
+div#navBar .active {
+	background-color: #6f40b7;
+}
+
+/* bio formatting */
+div#intro {
+	color: white;
+}
+div#intro td{
+	margin: 0;
+	padding: 50px;
+}
+
+/* contacts formatting */
+div#contacts table {
+	width: auto;
+	margin: auto;
+}
+div#contacts td {
+	margin: 0;
+	padding: 10px;
+}
+div#contacts a {
+	display:block;	
+	padding: 16px 16px;
+	background-size: 32px auto;
+}
+
+#insta {
+	background-image: url("../images/icons/instagram.png");
+}
+#insta:hover {
+	background-image: url("../images/icons/instagram_hover.png");
+}
+#github {
+	background-image: url("../images/icons/github.png");
+}
+#github:hover {
+	background-image: url("../images/icons/github_hover.png");
+}
+#mail {
+	background-image: url("../images/icons/email.png");
+}
+#mail:hover {
+	background-image: url("../images/icons/email_hover.png");
+}
+#linkedin {
+	background-image: url("../images/icons/linkedin.png");
+}
+#linkedin:hover {
+	background-image: url("../images/icons/linkedin_hover.png");
+}
+
+/* format footer */
+div#footer {
+	bottom: 0;
+	position: fixed;
+}
+
+div#footer a {
+	display: block;
+	color: #6f40b7;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+div#footer a:hover {
+	color: white;
+}
+
+/* pad imprint page */
+#imprint div#attributions {
+	padding: 20px;
+}
+
+/* resume page */
+div.cli {
+	display: block;
+	max-width: 800px;
+	margin-top: 70px;
+	background-color: white;
+	border-radius: 15px;
+}
+div.cli p {
+	font-family: monospace, monospace;
+	font-size: 18px;
+}
+div.cliFill {
+	margin: 0;
+	height: 30px;
+	background-color: #6f40b7;
+	margin-bottom: 30px;
+	border-radius: 15px 15px 0 0;
+}
+
+div.cliIn p {
+	margin: 0;
+	margin-left: 30px;
+	color: #212121;
+}
+
+div.cliOut p {
+	margin: 0;
+	margin-left: 30px;
+	padding-bottom: 30px;
+	color: #068d68;
+}
+
+div.cliOut a {
+	color: #f93e20;
+	text-decoration: none;
+	font-family: monospace, monospace;
+	font-size: 18px;
+}
+
+div.cliEnd  p {
+	padding-bottom: 30px;
+}
+/* constants */
+.centerContent {
+	min-width: 810px;
+	max-width: 1250px;
+	margin: auto;
+}
