@@ -153,7 +153,27 @@ div.cliOut a {
 div.cliEnd  p {
 	padding-bottom: 30px;
 }
+/* projects page */
+img.projPic {
+	width:650px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #6f40b7;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.projectContent p, .projectContent a {
+	text-align: center;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
 /* constants */
+.smallContent {
+	width: 800px;
+	margin: auto;
+}
 .centerContent {
 	min-width: 810px;
 	max-width: 1250px;
