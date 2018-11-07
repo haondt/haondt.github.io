@@ -7,8 +7,8 @@ body {
 	background-color: #212121;
 	margin: 0;
 	padding: 0;
+	color: white;
 }
-
 /* set up navigation bar */
 
 div#navBar ul {
@@ -42,9 +42,6 @@ div#navBar .active {
 /* bio formatting */
 div#intro {
 	color: white;
-	min-width: 810px;
-	max-width: 1250px;
-	margin: auto;
 }
 div#intro td{
 	margin: 0;
@@ -106,4 +103,16 @@ div#footer a {
 }
 div#footer a:hover {
 	color: white;
+}
+
+/* pad imprint page */
+#imprint div#attributions {
+	padding: 20px;
+}
+
+/* constants */
+.centerContent {
+	min-width: 810px;
+	max-width: 1250px;
+	margin: auto;
 }
