@@ -155,23 +155,44 @@ div.cliEnd  p {
 }
 /* projects page */
 img.projPic {
-	width:650px;
-	border-style: solid;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 16px;
 	border-width: 1px;
-	border-color: #6f40b7;
-	margin-left: 75px;
-	margin-right: 75px;
+	border-style: solid;
+	border-color: rgb(111, 64, 183);
 }
-.projectContent p, .projectContent a {
+.projectContent p, .projectContent a, .projectContent h1 {
 	text-align: center;
 	text-decoration: none;
-	border-style: solid;
-	border-width: 1px;
-	border-color: white;
+	display: block;
+	margin: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding:1px;
+}
+.projectContent p {
+	text-align: left;
+}
+.projectContent a {
+	font-weight: bold;
+}
+
+.projectContent h1 {
+	padding-top: 3%;
+	padding-bottom: 10px;
+}
+
+div.projectContent {
+	margin: auto;
+	margin-top:40px;
+	background: rgb(40,40,40);
+	width: 900px;
 }
 /* constants */
 .smallContent {
-	width: 800px;
+	width: 850px;
 	margin: auto;
 }
 .centerContent {
