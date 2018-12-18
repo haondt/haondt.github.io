@@ -176,7 +176,13 @@ img.projPic {
 	text-align: left;
 }
 .projectContent a {
-	font-weight: bold;
+	width: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	padding: 10px;
+	color:white;
+	background-color: #6f40b7;
 }
 
 .projectContent h1 {
