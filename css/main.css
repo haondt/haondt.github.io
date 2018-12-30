@@ -153,6 +153,7 @@ div.cliOut a {
 div.cliEnd  p {
 	padding-bottom: 30px;
 }
+
 /* projects page */
 img.projPic {
 	width: 90%;
@@ -163,6 +164,12 @@ img.projPic {
 	border-style: solid;
 	border-color: rgb(111, 64, 183);
 }
+
+img.language {
+	height: 25px;
+	padding: 5px;
+	background-color: #6f40b7;
+}
 .projectContent p, .projectContent a, .projectContent h1 {
 	text-align: center;
 	text-decoration: none;
@@ -171,12 +178,27 @@ img.projPic {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding:1px;
+	padding-bottom: 2px;
 }
+
+.projectContent div.buttons {
+	width: 100%;
+}
+
+.projectContent .buttons table{
+	margin: 0 auto;
+}
+
+.projectContent .buttons td {
+	padding: 0 2px;
+}
+
 .projectContent p {
 	text-align: left;
 }
 .projectContent a {
 	width: 70px;
+	height: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5px;
