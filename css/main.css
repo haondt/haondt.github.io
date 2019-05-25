@@ -111,47 +111,50 @@ div#footer a:hover {
 }
 
 /* resume page */
-div.cli {
-	display: block;
-	max-width: 800px;
-	margin-top: 70px;
-	background-color: white;
-	border-radius: 15px;
+
+div.resumeContent {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background: rgb(40,40,40);
+	width: 900px;
 }
-div.cli p {
-	font-family: monospace, monospace;
-	font-size: 18px;
+
+.resumeContent p, .resumeContent a  {
+	text-decoration: none;
+	font-size: 20px;
 }
-div.cliFill {
+
+
+.resumeContent a  {
+	font-size:21px;
+	text-decoration: none;
+	color: rgb(111,64,183);
 	margin: 0;
+}
+
+.resumeContent img {
 	height: 30px;
 	background-color: #6f40b7;
-	margin-bottom: 30px;
-	border-radius: 15px 15px 0 0;
+	padding: 5px;
+	
 }
-
-div.cliIn p {
-	margin: 0;
-	margin-left: 30px;
-	color: #212121;
+.resumeContent h3 {
 }
-
-div.cliOut p {
-	margin: 0;
-	margin-left: 30px;
-	padding-bottom: 30px;
-	color: #068d68;
+.resumeContent td {
+	padding: 0px;
+	margin: 0px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-
-div.cliOut a {
-	color: #f93e20;
-	text-decoration: none;
-	font-family: monospace, monospace;
-	font-size: 18px;
+.resumeContent tr {
+	border-bottom: 15px solid #212121;
+	border-collapse: collapse;
 }
-
-div.cliEnd  p {
-	padding-bottom: 30px;
+.resumeContent table {
+	width: 100%;
+	border-collapse: collapse;
 }
 
 /* projects page */
@@ -227,4 +230,13 @@ div.projectContent {
 	min-width: 810px;
 	max-width: 1250px;
 	margin: auto;
+}
+div.Title {
+	margin: auto;
+	padding: 1px;
+	width: 900px;
+	
+	text-align: center;
+	font-size: 25px;
+	background: rgb(40,40,40);
 }
