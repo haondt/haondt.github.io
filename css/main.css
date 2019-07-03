@@ -170,15 +170,11 @@ img.language {
 	padding: 5px;
 	background-color: #6f40b7;
 }
-.projectContent p, .projectContent a, .projectContent h1 {
+.projectContent p, .projectContent h1 {
 	text-align: center;
 	text-decoration: none;
 	display: block;
-	margin: 0;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding:1px;
-	padding-bottom: 2px;
+	margin: 10px;
 }
 
 .projectContent div.buttons {
@@ -197,12 +193,14 @@ img.language {
 	text-align: left;
 }
 .projectContent a {
-	width: 70px;
-	height: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5px;
-	padding: 10px;
+	text-align:center;
+	text-decoration:none;
+	display: block;
+	margin-bottom:4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top:6px;
+	padding-bottom:7px;
 	color:white;
 	background-color: #6f40b7;
 }
