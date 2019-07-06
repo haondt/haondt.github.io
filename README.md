@@ -1,3 +1,3 @@
-# Haondt.github.io v1.0
+# Haondt.github.io v1.1
 
 My personal website
